@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.asked {
+  width: 1440px;
+  height: 964px;
+  margin: auto;
+  background: #FFF;
+}
+
+h5 {
+  color: #3D4F9F;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.help {
+  width: 311px;
+  margin: auto;
+  text-align: center;
+}
+
+.cus {
+  margin-top: 176px;
+}
+
+.asking {
+  width: 743px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.ask1 {
+  margin-top: 68px;
+}
+
+.ask2 {
+  margin-top: 17px;
+}
+
+.p1 {
+  color: #8E96B7;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.45px;
+  margin-left: 24px;
+}
+
+.downs {
+  margin-left: 24px;
+}
+
+.invizible {
+  display: none;
+}
+
+.inviz {
+  display: none;
+}
+
+.doc {
+  display: none;
+}
+
+.up {
+  display: none;
+}
+
+.hidd {
+  display: flex;
+  align-items: center;
+}
+
+.asking:hover {
+  cursor: pointer;
+  width: 743px;
+  height: 176px;
+  display: block;
+}
+.asking:hover .downs {
+  display: none;
+}
+.asking:hover .up {
+  display: block;
+}
+.asking:hover .p1 {
+  font-weight: 900;
+}
+.asking:hover .invizible {
+  display: block;
+  width: 648px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 16px;
+}
+.asking:hover .inviz {
+  display: block;
+  width: 391px;
+  height: 62px;
+  color: #8D96BD;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 191.016%;
+  letter-spacing: 0.42px;
+}
+.asking:hover .doc {
+  display: block;
+  width: 195px;
+  height: 43px;
+  flex-shrink: 0;
+  background: E8ECF4;
+  color: #7382A3;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}/*# sourceMappingURL=asked.css.map */

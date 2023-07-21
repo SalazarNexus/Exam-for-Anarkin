@@ -1,0 +1,86 @@
+@import './base.scss';
+
+.newsletter {
+    @include width_height(1440px, 332px);
+    margin: auto;
+    background: #FCFDFF;
+
+    .sign_up {
+        @include width_height(330px, 95px);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #FCFDFF;
+        h6 {
+            color: #3D4F9F;
+            text-align: center;
+            font-family: Quicksand;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .parti {
+            width: 330px;
+            color: #8D96BD;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 191.016%;
+            letter-spacing: 0.42px;
+        }
+    }
+}
+
+.global {
+    width: 887px;
+    margin: auto;
+    margin-top: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    @include width_height(279px, 59px);
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: #EFEFF7;
+    outline: none;
+    padding-left: 23px;
+}
+
+input::placeholder {
+    color: #7A85AD;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.save_me {
+    @include width_height(184px, 59px);
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #4D6CE1;
+    box-shadow: 0px 5px 15px 0px rgba(116, 104, 255, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.saving{
+    width: 477px;
+    display: flex;
+    justify-content: space-between;
+}

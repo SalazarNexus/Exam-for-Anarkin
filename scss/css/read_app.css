@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.read_app {
+  width: 1440px;
+  height: 885px;
+  margin: auto;
+  background: #FFF;
+  position: relative;
+  z-index: 0;
+}
+.read_app .cloud2 {
+  position: absolute;
+  top: 126px;
+  left: 74px;
+  z-index: 0;
+}
+.read_app h2 {
+  color: #3D4F9F;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+}
+.read_app .papp {
+  width: 56px;
+  margin: auto;
+  padding-top: 171px;
+}
+
+.featuress {
+  width: 761px;
+  height: 254px;
+  margin: auto;
+  margin-top: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featuress .overview {
+  width: 140px;
+  height: 254px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+h3 {
+  color: #4074F8;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 177.036%;
+}
+
+.or, .opisanie {
+  color: #ADB3CB;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.036%;
+}
+
+.opisanie {
+  width: 140px;
+  height: 102px;
+}
+
+.buttons2 {
+  width: 337px;
+  height: 43px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.buttons2 .read_more {
+  width: 113px;
+  height: 43px;
+  background: #FFD7D7;
+  color: #D43F3F;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+.buttons2 .get_start {
+  width: 113px;
+  height: 43px;
+  background: #D2E1FF;
+  color: #3A79FF;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}/*# sourceMappingURL=read_app.css.map */

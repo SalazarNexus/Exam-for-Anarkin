@@ -1,0 +1,81 @@
+@import './base.scss';
+
+%for_h4 {
+    font-family: Quicksand;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.75%;
+    letter-spacing: 1.44px;
+}
+
+%for_users {
+    text-align: right;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.54px;
+}
+
+.percent {
+    @include width_height(1440px, 343px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .left {
+        @include width_height(720px, 342px);
+        background: linear-gradient(195deg, #6888FF 0%, #5E80FF 100%);
+
+        .timer {
+            height: 210px;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-top: 66px;
+            margin-right: 90px;
+        }
+    }
+
+    .right {
+        @include width_height(720px, 342px);
+        background: linear-gradient(164deg, #E9EFFF 0%, #E0E9FF 100%);
+
+        .people {
+            height: 210px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-top: 70px;
+            margin-left: 94px;
+        }
+    }
+
+}
+
+.procent {
+    @extend %for_h4;
+    color: #FFF;
+    text-align: right;
+}
+
+.users {
+    @extend %for_users;
+    color: #FFF;
+    width: 260px;
+}
+
+.proright {
+    color: #5E80FF;
+}
+
+.userright {
+    color: #5E80FF;
+    width: 260px;
+    text-align: start;
+}

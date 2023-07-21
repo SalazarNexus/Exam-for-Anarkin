@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.life_plan {
+  width: 1440px;
+  height: 715px;
+  margin: auto;
+}
+.life_plan .increase {
+  width: 1440px;
+  height: 570px;
+  margin: auto;
+  position: relative;
+}
+.life_plan .increase .plan_life_fon {
+  position: absolute;
+  z-index: 0;
+}
+.life_plan .increase .life_down {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+.life_plan .increase .clouds {
+  position: absolute;
+  z-index: 2;
+}
+.life_plan .increase .time {
+  position: absolute;
+  z-index: 0;
+  top: 405px;
+  left: 441px;
+}
+.life_plan .increase .play {
+  position: relative;
+  z-index: 3;
+}
+.life_plan .increase .one_clouds {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 54px;
+}
+.life_plan .increase .write {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.life_plan .increase .write .plan_p {
+  position: relative;
+  z-index: 4;
+  color: #3D4F9F;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 92px;
+}
+.life_plan .increase .write .productivity {
+  position: relative;
+  z-index: 4;
+  color: #3D4F9F;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 16px;
+}
+.life_plan .increase .write .brute {
+  width: 502px;
+  height: 78px;
+  position: relative;
+  z-index: 4;
+  color: #8D96BD;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 191.016%;
+  letter-spacing: 0.45px;
+  margin-top: 28px;
+}
+.life_plan .increase .change {
+  font-weight: 500;
+}
+.life_plan .increase .tochka {
+  position: relative;
+  position: absolute;
+  bottom: 28px;
+  z-index: 4;
+}
+.life_plan .sponsors {
+  width: 888px;
+  height: 29px;
+  margin: auto;
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=life_plan.css.map */

@@ -1,0 +1,117 @@
+@import './base.scss';
+
+.read_app {
+    @include width_height(1440px, 885px);
+    margin: auto;
+    background: #FFF;
+    position: relative;
+    z-index: 0;
+
+    .cloud2 {
+        position: absolute;
+        top: 126px;
+        left: 74px;
+        z-index: 0;
+    }
+
+    h2 {
+        color: #3D4F9F;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 20px;
+    }
+
+    .papp {
+        width: 56px;
+        margin: auto;
+        padding-top: 171px;
+    }
+}
+
+.featuress {
+    @include width_height(761px, 254px);
+    margin: auto;
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .overview {
+        @include width_height(140px, 254px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+h3 {
+    color: #4074F8;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 177.036%;
+}
+
+%for_opisanie {
+    color: #ADB3CB;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 177.036%;
+}
+
+.opisanie {
+    @include width_height(140px, 102px);
+    @extend %for_opisanie;
+}
+
+.buttons2 {
+    @include width_height(337px, 43px);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+
+    .read_more {
+        @include width_height(113px, 43px);
+        background: #FFD7D7;
+        color: #D43F3F;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+    }
+
+    .get_start {
+        @include width_height(113px, 43px);
+        background: #D2E1FF;
+        color: #3A79FF;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+    }
+}
+
+.or {
+    @extend %for_opisanie;
+}

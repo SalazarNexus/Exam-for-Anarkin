@@ -1,0 +1,100 @@
+@import './base.scss';
+
+.get_know {
+    @include width_height(1440px, 447px);
+    margin: auto;
+    background: linear-gradient(195deg, #6888FF 0%, #5E80FF 100%);
+    position: relative;
+    z-index: 0;
+}
+
+.clouds_again {
+    position: absolute;
+    z-index: 1;
+    top: 28px;
+}
+
+.know {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+.plans {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 91px;
+}
+
+.do {
+    font-weight: 500;
+}
+
+.now {
+    color: #FFF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.life {
+    width: 712px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 191.016%;
+    letter-spacing: 0.45px;
+    margin-top: 28px;
+}
+
+.my_buttons {
+    width: 285.076px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.pricing_view {
+    @include width_height(130.076px, 43px);
+    flex-shrink: 0;
+    background: #FFF;
+    filter: drop-shadow(0px 5px 15px #6480E8);
+    border: none;
+    color: #565F82;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.docing {
+    @include width_height(155px, 43px);
+    flex-shrink: 0;
+    color: #C7D3FF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(195deg, #6888FF 0%, #5E80FF 100%);
+    border: solid 2px;
+}
